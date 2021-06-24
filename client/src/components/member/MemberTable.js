@@ -355,7 +355,7 @@ const Member = () => {
           <MemberForm trigger={addBtnPopupForm} setTrigger={setAddBtnPopupForm} onMemberFormClick={handleMemberFormClick} />
           <table>
               <tbody>
-                <tr><th>First Name</th><th>Last Name</th><th>Address1</th><th>Address2</th><th>City</th><th>Province</th><th>Postal Code</th><th>Contact Number</th><th>Email Address</th><th>Active</th><th>Member Since</th><th>Renewal Date</th><th>Last Update</th><th>Action</th></tr>
+                <tr><th>First Name</th><th>Last Name</th><th>Address1</th><th>Address2</th><th>City</th><th>Province</th><th>Postal Code</th><th>Contact Number</th><th>Email Address</th><th>Active MemberShip</th><th>Member Since</th><th>Renewal Date</th><th>Last Update</th><th>Action</th></tr>
                 {displayRows}                
               </tbody>
           </table>
